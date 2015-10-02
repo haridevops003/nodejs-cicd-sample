@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-cicd-sample",
+  "version": "0.0.1",
+  "description": "A sample project to be used as CI/CD for NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafabene/nodejs-cicd-sample.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ci",
+    "cd",
+    "jenkins",
+    "sample"
+  ],
+  "author": "Rafael Benevides <rafabene@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafabene/nodejs-cicd-sample/issues"
+  },
+  "homepage": "https://github.com/rafabene/nodejs-cicd-sample#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "supertest": "^1.1.0"
+  }
+}
